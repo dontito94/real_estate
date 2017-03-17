@@ -9,13 +9,13 @@
     Home
   </a>
   <a href="{{ url('/property') }}" class="list-group-item ">View property</a>
-  <a href="{{ url('/registerproperty') }}" class="list-group-item">Register property</a>
+  <a href="{{ url('/registerproperty') }}" class="list-group-item ">Register property</a>
   <a href="{{ url('/heloo') }}" class="list-group-item "> heloo</a>
 </div>
 
         </div>
         <div class="col-md-8">
-           <h3>Welcome to REAL ESTATE</h3>
+           <h3>your property</h3>
         </div>
     </div>
 </div>

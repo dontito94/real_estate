@@ -1,0 +1,69 @@
+
+h1{
+    font-size: 5.0em;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 50px;
+
+}
+h2{
+        margin-left: 300px;
+        margin-top: 40px;
+}
+hr{
+    color: #000;
+background-color: #000;
+height: 2px;
+margin: 0px 370px 0px 300px;
+}
+body{
+    background-color:  #CCEEFF;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 100;
+     margin: 20px 50px 0px 50px;
+}
+
+.banner{
+    margin-left: 350px;
+    margin-top: 20px;
+    
+
+}
+
+
+.nav{
+
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.col-md-4 {
+    margin-left: 170px;
+    margin-top: 50px;
+
+}
+.col-md-5{
+    margin: 0px 0px 0px 300px;
+}
+.col-md-8{
+      margin-top: 100px;
+    margin-left: 20px;
+}
+
+.item
+{
+    width: 450px;
+    height: 250px;
+}
+.imoj{
+
+    margin-left: 220px;
+}
+ .list-group{
+
+     margin-top: 100px;
+    margin-left: 20px;
+ }
+ .list-group-item{
+    margin-top: 20px;
+ }

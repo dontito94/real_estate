@@ -18,3 +18,12 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('/property', function () {
+    return view('property');
+});
+
+Route::get('/registerproperty', function () {
+    return view('registerproperty');
+});
+
