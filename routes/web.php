@@ -27,3 +27,6 @@ Route::get('/registerproperty', function () {
     return view('registerproperty');
 });
 
+Route::get('admin', function () {
+    return view('admin');
+});
