@@ -27,6 +27,7 @@ Route::get('/registerproperty', function () {
     return view('registerproperty');
 });
 
+<<<<<<< HEAD
 Route::get('/aboutus', function () {
     return view('aboutus');
 });
@@ -35,3 +36,8 @@ Route::get('/contactus', function () {
 });
 
 Route::resource('productCRUD','ProductCRUDController');
+=======
+Route::get('admin', function () {
+    return view('admin');
+});
+>>>>>>> 7ef660d9185c99de5b1fc2ef943869516e8a7b97
