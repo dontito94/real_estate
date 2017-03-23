@@ -19,11 +19,19 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
-Route::get('/property', function () {
-    return view('property');
+Route::get('/viewproperty', function () {
+    return view('viewproperty');
 });
 
 Route::get('/registerproperty', function () {
     return view('registerproperty');
 });
 
+Route::get('/aboutus', function () {
+    return view('aboutus');
+});
+Route::get('/contactus', function () {
+    return view('contactus');
+});
+
+Route::resource('productCRUD','ProductCRUDController');

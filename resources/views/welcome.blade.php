@@ -31,8 +31,9 @@
     <div class="col-md-2">
   <ul class="nav nav-pills nav-stacked">
  <li role="presentation" class="active"><a href="{{ url('/home') }}">Home</a></li>
-  <li role="presentation"><a href="{{ url('/login') }}">login</a></li>
-  <li role="presentation"><a href="{{ url('/register') }}">Register</a></li>
+   <li role="presentation"><a href="{{ url('/aboutus') }}">About us</a></li>
+  <li role="presentation"><a href="{{ url('/contactus') }}">Contact us</a></li>
+ <li role="presentation"><a href="{{ url('/register') }}">Register</a></li>
 </ul>
       
 </div>
@@ -73,16 +74,6 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
- </div>
-
- <div class="col-md-3">
-<h3>QUICK LINKS</h3>
-<hr>
-<ul>
-<li><a href="www.nssf.com">HSSF</a></li>
-<li><a href="lapf.com">LAPF</a></li>
-<li><a href="nyumba.com">NYUMBA</a></li>
-</ul>
  </div>
 </div>
   <!-- content -->

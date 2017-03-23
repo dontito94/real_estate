@@ -1,3 +1,4 @@
+
 @extends('layouts.app')
 
 @section('content')
@@ -8,7 +9,7 @@
   <a href="{{ url('/') }}" class="list-group-item active">
     Home
   </a>
-  <a href="{{ url('/property') }}" class="list-group-item ">View property</a>
+  <a href="{{ url('/viewproperty') }}" class="list-group-item ">View property</a>
   <a href="{{ url('/registerproperty') }}" class="list-group-item ">Register property</a>
   <a href="{{ url('/heloo') }}" class="list-group-item "> heloo</a>
 </div>

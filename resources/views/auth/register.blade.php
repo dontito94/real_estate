@@ -68,6 +68,7 @@
                             </div>
                         </div>
                     </form>
+                    <p><a href="{{ url('/login') }}">login</a> if you have account</p>
                 </div>
             </div>
         </div>
