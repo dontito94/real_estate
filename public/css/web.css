@@ -3,7 +3,7 @@ h1{
     font-size: 5.0em;
     font-weight: 900;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
 
 }
 h2{
@@ -57,7 +57,8 @@ body{
 }
 .imoj{
 
-    margin-left: 220px;
+    margin-left: 250px;
+    height: 100px;
 }
  .list-group{
 
